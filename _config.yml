@@ -13,7 +13,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Braden Kennedy
 description              : Braden Kennedy - Projects and CV 
-baseurl                  : "" # Set this to your repo name 
+baseurl                  : "/fa25-portfolio-bak232-taco" # Set this to your repo name 
 
 # Theme and Style
 theme: jekyll-theme-minimal
