@@ -3,14 +3,14 @@ layout: project
 title: MAE 3720 Final HW - Part 2
 description: The portfolio project associated with MAE 3720, the Mechanics of Engineering Materials
 technologies: [Ansys]
-image: /assets/images/radio-machine-cad.jpg
+image: /assets/images/final-rendering.png
 ---
 
-For a class, we were asked to CAD a complex object. This design was...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. 
+![Shaded rendering of earlier version]({{ "/assets/images/final-rendering.png" | relative_url }}) {: .inline-image-r style="width: 200px"}
 
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+This is a render of our modified design of the torque wrench. It is made out of 7075-T6 aluminium, and has a rubber handle which makes it easier for a user to grip. The handle is cicular, but transitions to a rectangular cross-section, similar to the baseline design. Key dimensions are shown in the drawing below (in inches). The cross-section of the rectangular portion of the wrench is 0.95" by 0.3".
 
-![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}) {: .inline-image-r style="width: 200px"}
+![Shaded rendering of earlier version]({{ "/assets/images/wrench-dimensions.png" | relative_url }}) {: .inline-image-r style="width: 200px"}
 
 Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
 
