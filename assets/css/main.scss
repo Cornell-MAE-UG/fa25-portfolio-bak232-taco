@@ -8,3 +8,31 @@ $color_scheme: '{{ site.color_scheme }}';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Merriweather:wght@400;700&display=swap');
 @import "custom";
 
+// Float images right with margin
+.float-right {
+  float: right;
+  margin: 0 1em 1em 0;
+}
+
+// Small image
+.img-small {
+  width: 150px;  // adjust as needed
+  height: auto;
+}
+
+// Medium image
+.img-medium {
+  width: 300px;
+  height: auto;
+}
+
+// Large image
+.img-large {
+  width: 600px;
+  height: auto;
+}
+
+// Make inline images block-level to wrap text nicely
+.inline-image {
+  display: block;
+}
