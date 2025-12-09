@@ -6,20 +6,19 @@ technologies: [Ansys]
 image: /assets/images/final-rendering.png
 ---
 
-![Shaded rendering of earlier version]({{ "/assets/images/final-rendering.png" | relative_url }}) {: .inline-image-r style="width: 200px"}
+<img src="/assets/images/final-rendering.png"
+     class="inline-image-r"
+     style="width: 200px;">
 
 This is a render of our modified design of the torque wrench. It is made out of 7075-T6 aluminium, and has a rubber handle which makes it easier for a user to grip. The handle is cicular, but transitions to a rectangular cross-section, similar to the baseline design. Key dimensions are shown in the drawing below (in inches). The cross-section of the rectangular portion of the wrench is 0.95" by 0.3".
 
 ![Shaded rendering of earlier version]({{ "/assets/images/wrench-dimensions.png" | relative_url }}) {: .inline-image-r style="width: 200px"}
 
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
-
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
-
-I was inspired by this old radio when I made this rendering:
+We are using 7075-T6 aluminum alloy for our final torque wrench design, which we landed on after comparing it to other aluminium, steel, and titanium options, as well as the original M42 tool steel (from the baseline design). The M42 had a much higher tensile strength than what was needed given the design constraints, so 7075-T6 aluminium (with a yield strength of 66.7 ksi) is a more reasonable option given its much cheaper cost (over 11 times cheaper). Other aluminium alloys, like 6061-T6 and 2024-T3, failed to be strong enough for the yield strength requirement without dramatically changing the overall dimensions. We also chose 7075-T6 over other steels (like AISI 1050 or 4140) for the lower elastic modulus, since these steels were only slightly cheaper in material cost but would require a more dramatic redesign of the overall dimensions to pass the strain gauge requirement. We also explored titanium options such as Grade 2 and Ti-6Al-4V, but these options were still many times more expensive than 7075-T6 even with changing the geometry to have a smaller overall cross-section/less volume. 
 
 ![Photo of old radio]({{ "/assets/images/old-radio.jpg" | relative_url }}){: .inline-image-l}
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+Our zero-displacement boundary condition remained unchanged between the baseline and final design. All five faces of the contact region at the end of the wrench are locked into place, with a 0.1” clearance given between this region and the rest of the wrench. A fillet connects the nub to the main body.
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+We did significantly change the force being applied at the end of the wrench, to more accurately reflect how the wrench is used. Since we added a large, rubber handle around the circular region of the wrench, we assume that the applied force is distributed evenly around the entire surface of the handle. To ensure the overall torque being applied is roughly the same as in the baseline case, we extended the wrench so the middle of the handle is at a distance of 16 inches from the fixed region. 
+
