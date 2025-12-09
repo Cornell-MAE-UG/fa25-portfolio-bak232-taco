@@ -32,8 +32,11 @@ The principal stress contour plot shows how our boundary conditions are creating
 Summarized Results:
 
 Max Normal Stress (psi) - 2.00e5
+
 Normal Stress 1 Node Removed from Max (psi) - 7.05e4
+
 Load Point Deflection (in) - 0.437
+
 Strain at Gauge Location - 1.393e-3
 
-For our strain gauge, we have chosen a gauge with similar characteristics to the theoretical gauge used for the baseline model. We found the CEA-06-125UN-350 strain gauge (by Vishay Precision Group - Micro-Measurements), which is a half-bridge gauge with a gauge factor (k) of 2.1. This means our over torque wrench sensitivity is $\varepsilon$*k/2 = 1.463 mV/V. We also confirmed that the overall dimensions of the gauge (0.38" by 0.19") fit on the side of our wrench and can be oriented properly (the short 0.19" side aligns with the 0.3" thickness of the wrench and fits snugly).
+For our strain gauge, we have chosen a gauge with similar characteristics to the theoretical gauge used for the baseline model. We found the CEA-06-125UN-350 strain gauge (by Vishay Precision Group - Micro-Measurements), which is a half-bridge gauge with a gauge factor (k) of 2.1. This means our over torque wrench sensitivity is epsilon*k/2 = 1.463 mV/V. We also confirmed that the overall dimensions of the gauge (0.38" by 0.19") fit on the side of our wrench and can be oriented properly (the short 0.19" side aligns with the 0.3" thickness of the wrench and fits snugly).
