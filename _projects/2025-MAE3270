@@ -5,10 +5,11 @@ description: The portfolio project associated with MAE 3720, the Mechanics of En
 technologies: [Ansys]
 image: /assets/images/final-rendering.png
 ---
+This is a render of our modified design of the torque wrench. It is made out of 7075-T6 aluminium, and has a rubber handle which makes it easier for a user to grip. The handle is cicular, but transitions to a rectangular cross-section, similar to the baseline design. Key dimensions are shown in the drawing below (in inches). The cross-section of the rectangular portion of the wrench is 0.95" by 0.3".
 
-<img src="{{ cornell-mae-ug.github.io }}/assets/images/final-rendering.png"
-     class="inline-image-r"
-     style="width: 200px;">
+
+![Shaded rendering of earlier version]({{ "/assets/images/final-rendering.png" | relative_url }})
+{: .inline-image-r style="width:200px;" }
 
 This is a render of our modified design of the torque wrench. It is made out of 7075-T6 aluminium, and has a rubber handle which makes it easier for a user to grip. The handle is cicular, but transitions to a rectangular cross-section, similar to the baseline design. Key dimensions are shown in the drawing below (in inches). The cross-section of the rectangular portion of the wrench is 0.95" by 0.3".
 
