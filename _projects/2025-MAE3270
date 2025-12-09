@@ -6,7 +6,7 @@ technologies: [Ansys]
 image: /assets/images/final-rendering.png
 ---
 
-<img src="/assets/images/final-rendering.png"
+<img src="{{ cornell-mae-ug.github.io }}/assets/images/final-rendering.png"
      class="inline-image-r"
      style="width: 200px;">
 
