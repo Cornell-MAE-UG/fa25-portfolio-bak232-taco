@@ -7,11 +7,13 @@ image: /assets/images/final-rendering.png
 ---
 This is a render of our modified design of the torque wrench. It is made out of 7075-T6 aluminium, and has a rubber handle which makes it easier for a user to grip. The handle is cicular, but transitions to a rectangular cross-section, similar to the baseline design. Key dimensions are shown in the drawing below (in inches). The cross-section of the rectangular portion of the wrench is 0.95" by 0.3".
 
-![Dimensions of our final design, displayed in inches]({{ "/assets/images/wrench-dimensions.png" | relative_url }}) {: .inline-image-r style="width: 50px"}
+![Dimensions of our final design, displayed in inches]({{ "/assets/images/wrench-dimensions.png" | relative_url }})
+{: .inline-image-r style="width: 50px"}
 
 We are using 7075-T6 aluminum alloy for our final torque wrench design, which we landed on after comparing it to other aluminium, steel, and titanium options, as well as the original M42 tool steel (from the baseline design). The M42 had a much higher tensile strength than what was needed given the design constraints, so 7075-T6 aluminium (with a yield strength of 66.7 ksi) is a more reasonable option given its much cheaper cost (over 11 times cheaper). Other aluminium alloys, like 6061-T6 and 2024-T3, failed to be strong enough for the yield strength requirement without dramatically changing the overall dimensions. We also chose 7075-T6 over other steels (like AISI 1050 or 4140) for the lower elastic modulus, since these steels were only slightly cheaper in material cost but would require a more dramatic redesign of the overall dimensions to pass the strain gauge requirement. We also explored titanium options such as Grade 2 and Ti-6Al-4V, but these options were still many times more expensive than 7075-T6 even with changing the geometry to have a smaller overall cross-section/less volume. 
 
-![Dimensions of our final design, displayed in inches]({{ "/assets/images/load-bc1.png" | relative_url }}) {: .inline-image-r style="width: 50px"}
+![Dimensions of our final design, displayed in inches]({{ "/assets/images/load-bc1.png" | relative_url }})
+{: .inline-image-r style="width: 50px"}
 
 Our zero-displacement boundary condition remained unchanged between the baseline and final design. All five faces of the contact region at the end of the wrench are locked into place, with a 0.1” clearance given between this region and the rest of the wrench. A fillet connects the nub to the main body.
 
